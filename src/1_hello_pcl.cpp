@@ -27,25 +27,6 @@ int main(int argc, char** argv)
 	for (size_t i = 0; i < cloud->points.size(); ++i)
 		cerr << " " << cloud->points[i].x << " " << cloud->points[i].y << " " << cloud->points[i].z << endl;
 
-	// Create a set of planar coefficients with X=Y=0,Z=1
-	ModelCoefficients::Ptr coefficients(new ModelCoefficients());
-	coefficients->values.resize(4);
-	coefficients->values[0] = coefficients->values[1] = 0;
-	coefficients->values[2] = 1.0;
-	coefficients->values[3] = 0;
-
-	// Create the filtering object
-	ProjectInliers<PointXYZ> proj;
-	proj.setModelType(SACMODEL_PLANE);
-	proj.setInputCloud(cloud);
-	proj.setModelCoefficients(coefficients);
-	proj.filter(*cloud_projected);
-
-	cerr << "\nCloud after projection: " << endl;
-	for (size_t i = 0; i < cloud_projected->points.size(); ++i)
-		cerr << " " << cloud_projected->points[i].x << " "
-		<< cloud_projected->points[i].y << " "
-		<< cloud_projected->points[i].z << endl;
 	
 	system("pause");
 	return (0);
