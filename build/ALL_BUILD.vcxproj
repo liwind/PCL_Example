@@ -145,6 +145,36 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="E:\Test\PCL\PCL_Example\build\6_1_pass_through.vcxproj">
+      <Project>{3BC9F35D-5A56-39AB-BAD4-E39130E48907}</Project>
+      <Name>6_1_pass_through</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\PCL\PCL_Example\build\6_2_voxel_grid.vcxproj">
+      <Project>{0DB6D693-3F27-3550-98FD-8280E59A45E6}</Project>
+      <Name>6_2_voxel_grid</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\PCL\PCL_Example\build\6_3_project_inliers.vcxproj">
+      <Project>{0BD2DCC5-B969-373D-AB42-438B79B11F16}</Project>
+      <Name>6_3_project_inliers</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\PCL\PCL_Example\build\6_4_extract_indices.vcxproj">
+      <Project>{0EFF4C8F-25F0-3D97-A428-3FA116A6FCA2}</Project>
+      <Name>6_4_extract_indices</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\PCL\PCL_Example\build\6_5_remove_outliers.vcxproj">
+      <Project>{258E51D5-41F9-3EA0-93A7-FBD1DBD1A771}</Project>
+      <Name>6_5_remove_outliers</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

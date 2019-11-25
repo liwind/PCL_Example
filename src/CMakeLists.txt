@@ -25,3 +25,18 @@ target_link_libraries(5_2_range_image_visualization ${PCL_LIBRARIES})
 
 add_executable(5_3_pcl_visualizer_demo  5_3_pcl_visualizer_demo.cpp)
 target_link_libraries(5_3_pcl_visualizer_demo  ${PCL_LIBRARIES})
+
+add_executable(6_1_pass_through  6_1_pass_through.cpp)
+target_link_libraries(6_1_pass_through  ${PCL_LIBRARIES})
+
+add_executable(6_2_voxel_grid  6_2_voxel_grid.cpp)
+target_link_libraries(6_2_voxel_grid  ${PCL_LIBRARIES})
+
+add_executable(6_3_project_inliers  6_3_project_inliers.cpp)
+target_link_libraries(6_3_project_inliers  ${PCL_LIBRARIES})
+
+add_executable(6_4_extract_indices  6_4_extract_indices.cpp)
+target_link_libraries(6_4_extract_indices  ${PCL_LIBRARIES})
+
+add_executable(6_5_remove_outliers  6_5_remove_outliers.cpp)
+target_link_libraries(6_5_remove_outliers  ${PCL_LIBRARIES})
