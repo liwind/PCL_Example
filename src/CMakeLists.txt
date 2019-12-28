@@ -17,6 +17,9 @@ target_link_libraries(3_kdtree_search ${PCL_LIBRARIES})
 add_executable(4_1_octree_search 4_1_octree_search.cpp)
 target_link_libraries(4_1_octree_search ${PCL_LIBRARIES})
 
+add_executable(4_2_octree_change_detection 4_2_octree_change_detection.cpp)
+target_link_libraries(4_2_octree_change_detection ${PCL_LIBRARIES})
+
 add_executable(5_1_cloud_viewer 5_1_cloud_viewer.cpp)
 target_link_libraries(5_1_cloud_viewer ${PCL_LIBRARIES})
 
@@ -40,3 +43,9 @@ target_link_libraries(6_4_extract_indices  ${PCL_LIBRARIES})
 
 add_executable(6_5_remove_outliers  6_5_remove_outliers.cpp)
 target_link_libraries(6_5_remove_outliers  ${PCL_LIBRARIES})
+
+add_executable(7_range_image  7_range_image.cpp)
+target_link_libraries(7_range_image  ${PCL_LIBRARIES})
+
+add_executable(8_key_point  8_key_point.cpp)
+target_link_libraries(8_key_point  ${PCL_LIBRARIES})

@@ -127,6 +127,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="E:\Test\PCL\PCL_Example\build\4_2_octree_change_detection.vcxproj">
+      <Project>{711E0708-3F19-34EF-A6F7-2DD90940A480}</Project>
+      <Name>4_2_octree_change_detection</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
     <ProjectReference Include="E:\Test\PCL\PCL_Example\build\5_1_cloud_viewer.vcxproj">
       <Project>{71933286-AB65-37CC-836D-6CEA37D210B6}</Project>
       <Name>5_1_cloud_viewer</Name>
@@ -172,6 +178,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="E:\Test\PCL\PCL_Example\build\6_5_remove_outliers.vcxproj">
       <Project>{258E51D5-41F9-3EA0-93A7-FBD1DBD1A771}</Project>
       <Name>6_5_remove_outliers</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\PCL\PCL_Example\build\7_range_image.vcxproj">
+      <Project>{0B39EF67-44F8-3EC2-83B9-4A2ED9FFFBC5}</Project>
+      <Name>7_range_image</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\PCL\PCL_Example\build\8_key_point.vcxproj">
+      <Project>{DB7FFFA6-C721-3125-8F42-255233F99936}</Project>
+      <Name>8_key_point</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
