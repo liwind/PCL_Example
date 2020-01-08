@@ -103,6 +103,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="E:\Test\PCL\PCL_Example\build\0_my_test.vcxproj">
+      <Project>{627C5CB4-0EB4-356E-8762-836A36D94CD8}</Project>
+      <Name>0_my_test</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
     <ProjectReference Include="E:\Test\PCL\PCL_Example\build\1_hello_pcl.vcxproj">
       <Project>{35DF023D-C70F-3486-B8D5-7FDF3583EED8}</Project>
       <Name>1_hello_pcl</Name>
@@ -187,9 +193,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\Test\PCL\PCL_Example\build\8_key_point.vcxproj">
-      <Project>{DB7FFFA6-C721-3125-8F42-255233F99936}</Project>
-      <Name>8_key_point</Name>
+    <ProjectReference Include="E:\Test\PCL\PCL_Example\build\9_1_normal_estimation.vcxproj">
+      <Project>{C1468995-7308-38FA-AF1C-5E10AF4A09B4}</Project>
+      <Name>9_1_normal_estimation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Test\PCL\PCL_Example\build\9_2_normal_estimation_integral_image.vcxproj">
+      <Project>{42F5499D-FAFE-37FA-A102-CCA59CF1D479}</Project>
+      <Name>9_2_normal_estimation_integral_image</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>

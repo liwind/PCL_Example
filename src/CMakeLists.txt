@@ -5,6 +5,9 @@ include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
+add_executable(0_my_test 0_my_test.cpp)
+target_link_libraries(0_my_test ${PCL_LIBRARIES})
+
 add_executable(1_hello_pcl 1_hello_pcl.cpp)
 target_link_libraries(1_hello_pcl ${PCL_LIBRARIES})
 
@@ -47,5 +50,8 @@ target_link_libraries(6_5_remove_outliers  ${PCL_LIBRARIES})
 add_executable(7_range_image  7_range_image.cpp)
 target_link_libraries(7_range_image  ${PCL_LIBRARIES})
 
-add_executable(8_key_point  8_key_point.cpp)
-target_link_libraries(8_key_point  ${PCL_LIBRARIES})
+add_executable(9_1_normal_estimation  9_1_normal_estimation.cpp)
+target_link_libraries(9_1_normal_estimation  ${PCL_LIBRARIES})
+
+add_executable(9_2_normal_estimation_integral_image  9_2_normal_estimation_integral_image.cpp)
+target_link_libraries(9_2_normal_estimation_integral_image  ${PCL_LIBRARIES})
