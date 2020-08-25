@@ -50,8 +50,44 @@ target_link_libraries(6_5_remove_outliers  ${PCL_LIBRARIES})
 add_executable(7_range_image  7_range_image.cpp)
 target_link_libraries(7_range_image  ${PCL_LIBRARIES})
 
+add_executable(8_key_point.cpp  8_key_point.cpp)
+target_link_libraries(8_key_point.cpp  ${PCL_LIBRARIES})
+
 add_executable(9_1_normal_estimation  9_1_normal_estimation.cpp)
 target_link_libraries(9_1_normal_estimation  ${PCL_LIBRARIES})
 
 add_executable(9_2_normal_estimation_integral_image  9_2_normal_estimation_integral_image.cpp)
 target_link_libraries(9_2_normal_estimation_integral_image  ${PCL_LIBRARIES})
+
+add_executable(10_1_iterative_closest_point  10_1_iterative_closest_point.cpp)
+target_link_libraries(10_1_iterative_closest_point  ${PCL_LIBRARIES})
+
+add_executable(10_2_pairwise_incremental_registration  10_2_pairwise_incremental_registration.cpp)
+target_link_libraries(10_2_pairwise_incremental_registration  ${PCL_LIBRARIES})
+
+add_executable(10_3_normal_distributions_transform  10_3_normal_distributions_transform.cpp)
+target_link_libraries(10_3_normal_distributions_transform  ${PCL_LIBRARIES})
+
+add_executable(11_random_sample_consensus  11_random_sample_consensus.cpp)
+target_link_libraries(11_random_sample_consensus  ${PCL_LIBRARIES})
+
+add_executable(12_1_planar_segmentation  12_1_planar_segmentation.cpp)
+target_link_libraries(12_1_planar_segmentation  ${PCL_LIBRARIES})
+
+add_executable(12_2_cylinder_segmentation  12_2_cylinder_segmentation.cpp)
+target_link_libraries(12_2_cylinder_segmentation  ${PCL_LIBRARIES})
+
+add_executable(12_3_cluster_extraction  12_3_cluster_extraction.cpp)
+target_link_libraries(12_3_cluster_extraction  ${PCL_LIBRARIES})
+
+add_executable(13_1_resampling  13_1_resampling.cpp)
+target_link_libraries(13_1_resampling  ${PCL_LIBRARIES})
+
+add_executable(13_2_concave_hull_2d  13_2_concave_hull_2d.cpp)
+target_link_libraries(13_2_concave_hull_2d  ${PCL_LIBRARIES})
+
+add_executable(13_3_greedy_projection  13_3_greedy_projection.cpp)
+target_link_libraries(13_3_greedy_projection  ${PCL_LIBRARIES})
+
+add_executable(14_correspondence_grouping  14_correspondence_grouping.cpp)
+target_link_libraries(14_correspondence_grouping  ${PCL_LIBRARIES})
